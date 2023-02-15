@@ -1,0 +1,129 @@
+#draw_base {
+    background-color: black;
+    width: 150px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+}
+#draw_mid {
+    background-color: black;
+    width: 10px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+#draw_midtop {
+    background-color: black;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    left: 60px;
+    bottom: 305px;
+    transform: rotate(-45deg)
+}
+#draw_top {
+    background-color: black;
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+#draw_down {
+    background-color: black;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    top: 50px;
+    left: 280px;
+}
+#draw_head {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 10px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: 240px;
+}
+#draw_body {
+    background-color: black;
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    top: 180px;
+    left: 280px;
+}
+#draw_lleg {
+    background-color: black;
+    width: 10px;
+    height: 90px;
+    position: absolute;
+    top: 270px;
+    left: 259px;
+    transform: rotate(30deg);
+}
+#draw_rleg {
+    background-color: black;
+    width: 10px;
+    height: 90px;
+    position: absolute;
+    top: 270px;
+    left: 301px;
+    transform: rotate(-30deg);
+}
+#draw_larm {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    top: 180px;
+    left: 260px;
+    transform: rotate(30deg);
+}
+#draw_rarm {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    transform: rotate(-30deg);
+}
+#draw_leye {
+    background: rgb(0, 0, 0);
+    width: 4px;
+    height: 18px;
+    position: absolute;
+    left: 272px;
+    top: 130px;
+    transform: rotate(45deg);
+  }
+#draw_leye:after {
+    background: rgb(0, 0, 0);
+    content: "";
+    width: 18px;
+    height: 4px;
+    position: absolute;
+    top: 7px;
+    left: -7px;
+}
+#draw_reye {
+    background: rgb(0, 0, 0);
+    width: 4px;
+    height: 18px;
+    position: absolute;
+    left: 295px;
+    top: 130px;
+    transform: rotate(45deg);
+  }
+#draw_reye:after {
+    background: rgb(0, 0, 0);
+    content: "";
+    width: 18px;
+    height: 4px;
+    position: absolute;
+    top: 7px;
+    left: -7px;
+}

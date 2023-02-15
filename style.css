@@ -1,0 +1,162 @@
+body {
+    background-color: #89b5ee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title{
+    text-align: center;
+    font-size: 40px;
+}
+
+#game {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+#draw_container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+#word_container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+#hint {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+#word {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.letter {
+    text-align: center;
+    font-size: 35px;
+    width: 50px;
+    position: relative;
+}
+.letter::after {
+    background-color: #000000;
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 7.5px;
+    width: 35px;
+    height: 5px;
+}
+
+#keyboard {
+    margin: auto;
+    margin-top: 60px;
+    width: 545px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.k_letter{
+    background-color: #96e472;
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    outline: 2px solid #000000 ;
+    cursor: pointer;
+}
+.k_letter_clicked{
+    background-color: #e96b55;
+    font-size: 40px;
+    text-align: center;
+    line-height: 48px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    outline: 2px solid #000000 ;
+}
+
+#final {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: none;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: #141414cb;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+#message_win {
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(127, 226, 61);
+    text-shadow: #000 0px 0px 10px;
+    margin: 50px;
+    margin-top: 100px;
+}
+#message_2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 0;
+}
+#message_win_3 {
+    text-align: center;
+    color: rgb(127, 226, 61);
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+#message_lost {
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(223, 42, 42);
+    text-shadow: #000 0px 0px 10px;
+    margin: 50px;
+    margin-top: 100px;
+}
+#message_lost_3 {
+    text-align: center;
+    color: rgb(223, 42, 42);
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+#reset {
+    margin: auto;
+    margin-top: 40px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #2727276c;
+    border-radius: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    outline: solid #000;
+    cursor: pointer;
+    display: none;
+}
